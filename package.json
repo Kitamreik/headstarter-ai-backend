@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "openai": "^4.55.0"
+  },
+  "type": "module",
+  "name": "headstarter-ai-backend",
+  "version": "1.0.0",
+  "description": "Creating a Node Back End with ChatGPT API integration",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kitamreik/headstarter-ai-backend.git"
+  },
+  "author": "Kit Fenrir Amreik (they/she)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kitamreik/headstarter-ai-backend/issues"
+  },
+  "homepage": "https://github.com/Kitamreik/headstarter-ai-backend#readme"
+}
