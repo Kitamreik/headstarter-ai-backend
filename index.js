@@ -11,7 +11,7 @@ const chatCompletion = await openai.chat.completions.create({
         content: "Greet the user with a friendly response and mention that you are undergoing maintenance"
     }],
     //define the ChatGPT model, the code-along uses gpt-3.5-turbo, the front end uses 'gpt-4o-mini'
-    model: 'gpt-3.5-turbo',
+    model: 'gpt-4o-mini',
     //stream the response as true
     stream: true
 })
@@ -25,3 +25,5 @@ for await (const chat of chatCompletion) {
 //console.log(chatCompletion.choices[0].message.content) //add choices by the index - .choices[0].message.content
 
 //in terminal, run node index.js
+
+//code along: https://www.youtube.com/watch?v=emS9QL5EmXk
